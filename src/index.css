@@ -1,0 +1,40 @@
+ul.pills {
+  display: flex;
+  gap: 1em;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.pills li {
+  border: 1px solid #000;
+  border-radius: 16px;
+  padding: 0.5em 1em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  padding: 0.5em 1em;
+  border: 1px solid #000;
+  border-radius: 16px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 2rem;
+  transition: background-color 300ms;
+}
+
+.button:hover {
+  background-color: #e0e0e0;
+}
+.flex {
+  display: flex;
+  gap: 1em;
+}
+
+.my-5 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
